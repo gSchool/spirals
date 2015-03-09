@@ -28,9 +28,3 @@ Spiraler = ->(start, max) {
   end
   result
 }
-#
-# Printer = ->(result) {
-#   result.map do |row|
-#     row.map { |v| v.to_s.rjust(3, " ") }.join("  ")
-#   end.join("\n")
-# }
